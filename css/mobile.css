@@ -1,0 +1,469 @@
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0;
+    padding: 5vw 0;
+  }
+  .content-default {
+    max-width: 100%;
+  }
+  .my-button {
+    border-radius: 10vw;
+  }
+  .content {
+    padding: 5vw 2vw 5vw 2vw;
+  }
+  h1, p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 10vw;
+    margin: 1vw 3vw;
+  }
+  h3 {
+    font-size: 1vw;
+    font-weight: 300;
+  }
+  span, p {
+    font-size: 5vw;
+    max-width: 100%;
+  }
+  .top-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-weight: 500;
+    padding-bottom: 10vw;
+  }
+  .top-nav .date {
+    position: absolute;
+    top: 2vw;
+    left: 5vw;
+    display: flex;
+    max-width: 100vw;
+  }
+  .top-nav .date i {
+    font-size: 5vw;
+    margin: auto 2vw auto 0;
+  }
+  .top-nav .date span {
+    font-size: 3.5vw;
+    line-height: 98%;
+  }
+  .top-nav .location {
+    display: flex;
+    position: absolute;
+    top: 2vw;
+    right: 3.5vw;
+    max-width: 32vw;
+    width: auto;
+    text-align: right;
+  }
+  .top-nav .location a, .top-nav .location a:active, .top-nav .location a:visited {
+    display: flex;
+  }
+  .top-nav .location a:hover i {
+    animation: none;
+  }
+  .top-nav .location span {
+    font-size: 3.5vw;
+    line-height: 98%;
+    max-width: 100%;
+  }
+  .top-nav .location i {
+    font-size: 5vw;
+    margin: auto;
+    transition: none;
+    display: block;
+    margin: 0;
+  }
+  .header {
+    padding: 0;
+  }
+  .header h2 {
+    font-size: 3vw;
+    font-weight: 300;
+  }
+  .header .content .content-default img {
+    width: 80vw;
+  }
+  .header .content .content-default button {
+    font-size: 5vw;
+    padding: 1vw 5vw;
+  }
+  .description h2 {
+    font-weight: 300;
+    font-size: 3vw;
+  }
+  .description .content {
+    padding: 5vw;
+  }
+  .description .content span {
+    display: block;
+    margin: auto;
+    color: #fff;
+    max-width: 80vw;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .description .content-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .description .content-default .text {
+    padding: 5vw;
+    max-width: 100%;
+  }
+  .description .content-default .text h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+  .description .content-default .text h2 i {
+    margin: auto 0.5vw auto 0;
+  }
+  .description .content-default .box {
+    border-radius: 5vw;
+    width: 100%;
+    height: 50vw;
+    box-shadow: none;
+    padding: 2vw;
+  }
+  .description .content-default .box iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  .schedule span {
+    text-align: center;
+    color: #1E3050;
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  .schedule h2 {
+    font-weight: 300;
+    font-size: 3vw;
+  }
+  .schedule .content-default {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  .schedule .content-default .title h1 {
+    font-size: 10vw;
+    max-width: 100%;
+  }
+  .schedule .content-default .title h2 {
+    font-size: 5vw;
+  }
+  .schedule .content-default .container {
+    padding: 10vw 2vw;
+  }
+  .schedule .content-default .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .schedule .content-default .tabs .tab {
+    display: block;
+    width: 45%;
+    padding: 1vw;
+    border-radius: 2vw 2vw 0 0;
+    transition: none;
+    position: relative;
+  }
+  .schedule .content-default .tabs [data-tab="2"] {
+    position: static;
+  }
+  .schedule .content-default .tabs .tab.active {
+    z-index: 2;
+    background: #fff;
+  }
+  .schedule .content-default .tabs .tab:not(.active) {
+    z-index: 1;
+    background: #e6e6e6;
+  }
+  .schedule .content-default .box {
+    background-color: #fff;
+    color: #1E3050;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+    height: auto;
+    width: 100%;
+  }
+  .schedule .content-default .box table {
+    width: 100%;
+    font-size: 3vw;
+    border-collapse: collapse;
+    border-radius: inherit;
+    overflow: hidden;
+  }
+  .schedule .content-default .box table tr {
+    text-align: center;
+  }
+  .schedule .content-default .box table tr:nth-child(odd) {
+    background-color: rgba(103, 220, 249, 0.3882352941);
+  }
+  .schedule .content-default .box table th {
+    text-align: center;
+    background-color: rgba(65, 177, 205, 0.4470588235);
+    padding: 1vw;
+    border: 5px solid #fff;
+    font-size: 3.5vw;
+  }
+  .schedule .content-default .box table th:first-of-type {
+    width: 15%;
+  }
+  .schedule .content-default .box table th:last-of-type {
+    width: 30%;
+  }
+  .schedule .content-default .box table td {
+    padding: 2vw;
+    border: 5px solid #fff;
+    background-color: rgba(103, 220, 249, 0.2);
+    font-weight: 500;
+  }
+  .speakers .content h1 {
+    font-size: 10vw;
+    max-width: 100%;
+  }
+  .speakers h2 {
+    font-size: 3vw;
+    font-weight: 300s;
+  }
+  .speakers .content-default {
+    max-width: 100%;
+    width: 100%;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .speakers .content-default .box {
+    padding: 2vw;
+    border-radius: 5vw;
+    aspect-ratio: 4/3;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 2vw;
+    transition: none;
+  }
+  .speakers .content-default .box h1, .speakers .content-default .box h2 {
+    color: #1E3050;
+    text-align: left;
+  }
+  .speakers .content-default .box .frame {
+    display: block;
+    border-radius: inherit;
+    max-width: 50%;
+    margin: 1vw;
+    background: linear-gradient(45deg, rgba(103, 220, 249, 0.4274509804), #fff);
+  }
+  .speakers .content-default .box .text {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 3vw 2vw 3vw;
+  }
+  .speakers .content-default .box .text h2 {
+    font-weight: 700;
+    font-size: 5vw;
+    margin-bottom: 1vw;
+  }
+  .speakers .content-default .box .text ul {
+    list-style: url(svg/caret-right-solid.svg);
+    font-size: 3vw;
+    padding: 0;
+  }
+  .speakers .content-default .box .text ul li {
+    padding-left: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+  }
+  .speakers .content-default .box .text#matheus-vieira li {
+    font-size: 2.5vw;
+  }
+  .speakers .content-default .box:last-of-type {
+    justify-self: start;
+  }
+  .speakers .content-default .box:hover {
+    transform: none;
+    background-position: 0%;
+  }
+  #subscribe h1 {
+    font-size: 10vw;
+    max-width: 80%;
+    margin: 5vw auto;
+  }
+  #subscribe h2, #subscribe h3 {
+    font-size: 5vw;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+  }
+  #subscribe button {
+    font-size: 5vw;
+    padding: 1vw 10vw;
+    display: block;
+    margin: 5vw auto 10vw;
+  }
+  .palmilhando-assine h1 {
+    font-size: 10vw;
+    max-width: 100%;
+  }
+  .palmilhando-assine h3 {
+    font-size: 5vw;
+    display: block;
+    margin: auto;
+  }
+  .palmilhando-assine .content-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .palmilhando-assine h1, .palmilhando-assine h2, .palmilhando-assine h3 {
+    text-align: center;
+  }
+  .palmilhando-assine .text {
+    max-width: 100%;
+  }
+  .palmilhando-assine .text h2 {
+    font-size: 7vw;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  .palmilhando-assine .text span {
+    font-size: 5vw;
+    font-weight: 500;
+    text-align: center;
+  }
+  .palmilhando-assine .text ul {
+    list-style: url(svg/check.svg);
+    margin: 0 auto;
+    padding: 0 15vw;
+  }
+  .palmilhando-assine .text ul li {
+    text-align: center;
+    font-size: 5vw;
+    padding-left: 0.25vw;
+    margin: 1.5vw auto;
+  }
+  .palmilhando-assine .box {
+    background-image: linear-gradient(45deg, rgba(103, 220, 249, 0.4274509804), rgba(255, 255, 255, 0.3529411765));
+    background-size: 300%;
+    background-position: 0;
+    border-radius: 5vw;
+    border: solid 3px #fff;
+    aspect-ratio: 1;
+    padding: 2vw;
+    max-width: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10vw auto;
+  }
+  .palmilhando-assine .box .logo svg {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .palmilhando-assine .box .logo h4 {
+    font-size: 5vw;
+    color: #fff;
+    text-align: center;
+  }
+  .palmilhando-assine .box a {
+    max-width: 100%;
+  }
+  .palmilhando-assine .box a button {
+    font-size: 7vw;
+    color: #fff;
+    text-align: center;
+    padding: 1vw;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: #009fb5;
+    background-image: linear-gradient(45deg, #0986bf, #7ed4db);
+    background-image: -moz-linear-gradient(45deg, #0986bf, #7ed4db);
+    background-image: -webkit-linear-gradient(45deg, #0986bf, #7ed4db);
+    background-size: 500%;
+    background-position: 30%;
+  }
+  .palmilhando-assine .box a:link, .palmilhando-assine .box a:active, .palmilhando-assine .box a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .palmilhando-assine .box a svg {
+    display: none;
+  }
+  .footer .content-default {
+    display: flex;
+    justify-content: center;
+  }
+  .footer a {
+    text-decoration: none;
+  }
+  .footer img, .footer i {
+    color: #0986bf;
+    display: block;
+    font-size: 10vw;
+    min-width: 10vw;
+    margin: 2vw;
+    transition: all 0.1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  .footer img:hover, .footer i:hover {
+    transform: scale(102%);
+  }
+  .footer .inscricao {
+    margin: 50vw auto;
+    padding: 10vw;
+  }
+  .footer .inscricao h1, .footer .inscricao h2, .footer .inscricao h3, .footer .inscricao i {
+    color: #fff;
+    text-align: center;
+    display: block;
+  }
+  .footer .inscricao i {
+    font-size: 25vw;
+  }
+  .footer .inscricao h1 {
+    font-size: 10vw;
+    font-weight: 700;
+  }
+  .footer .inscricao h2 {
+    font-size: 5vw;
+  }
+  .footer .inscricao h3 {
+    font-weight: 300;
+    font-size: 3vw;
+  }
+  .footer .inscricao button {
+    color: #fff;
+    text-align: center;
+    padding: 1vw 3vw;
+    font-size: 5vw;
+    display: block;
+    margin: 10vw auto;
+    background-color: #009fb5;
+    background-image: linear-gradient(45deg, #0986bf, #7ed4db);
+    background-image: -moz-linear-gradient(45deg, #0986bf, #7ed4db);
+    background-image: -webkit-linear-gradient(45deg, #0986bf, #7ed4db);
+    background-size: 500%;
+    background-position: 30%;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

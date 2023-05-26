@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='css/style.css' rel='stylesheet'>
+<link href='css/mobile.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="content">
+          <div class="top-nav">
+            <div class="date">
+              <i class="fa-regular fa-calendar-days"></i>
+              <span>DIAS 8 E 9 <br>DE SETEMBRO</span>
+            </div>
+            <div class="location">
+              <a href="https://goo.gl/maps/VVuKyR19AkF2HJvC9?coh=178571&entry=tt" target="_blank">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>SÃO JOSÉ DOS CAMPOS - SP</span>
+                </a>
+            </div>
+          </div>
+            <div class="content-default">
+              <img src="css/svg/encotro-logo.svg" class="bg-tab" draggable="false">
+              <button onclick="window.location='inscricao.html'">Reserve sua vaga</button>
+            </div>
+        </div>
+        <img src="css/svg/down-tab.svg" class="down-tab" draggable="false">
+    </section>
+
+    <section class="description">
+        <h1>Descrição do Evento</h1>
+        <div class="content">
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            <div class="content-default">
+              <div class="text">
+                <h2><i class="fa-regular fa-calendar-days"></i> DIAS 8 E 9 DE SETEMBRO<br><br>
+                  <i class="fa-solid fa-location-dot"></i> Edifício Golden Tulip, São José dos Campos - SP</h2>
+              </div>
+              <div class="box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.0853030406374!2d-45.911724385028776!3d-23.203561684861672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc358bf71d01b7%3A0x79af6131fa8e062c!2sGolden%20Tulip%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos!5e0!3m2!1sen!2sbr!4v1684546288723!5m2!1sen!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="schedule">
+      <div class="content">
+        <div class="content-default">
+          <div class="title">
+            <h1>Programação</h1>
+            <h2>Confira aqui os horários programados para cada dia:</h2>
+          </div>
+          <div class="container">
+                <div class="tabs">
+                    <div class="tab active" data-tab="1">
+                        <span>Dia 1</span>
+                    </div>
+                    <div class="tab" data-tab="2">
+                        <span>Dia 2</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <table data-dia="1">
+                        <tr>
+                            <th>Horário</th>
+                            <th>Atividade</th>
+                            <th>Palestrante</th>
+                        </tr>
+                        <tr>
+                            <td>07:30</td>
+                            <td>Boas vindas e café</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                          <td>08:00</td>
+                          <td>Abertura e comunicação inicial</td>
+                          <td>ANDRÉ MENDES,<br>CLAYTON FUZETTI</td>
+                        </tr>
+                        <tr>
+                          <td>08:30</td>
+                          <td>WORKSHOP: Avaliação do foot core</td>
+                          <td>CAROLINA LINS</td>
+                        </tr>
+                        <tr>
+                          <td>09:30</td>
+                          <td>WORKSHOP: Avaliação cinemática de marcha e corrida como ferramenta para prescrição de calçado e palmilha.</td>
+                          <td>GUSTAVO LEME</td>
+                        </tr>
+                        <tr>
+                          <td>10:30</td>
+                          <td><i class="fa-solid fa-mug-saucer"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>11:00</td>
+                          <td>WORKSHOP: Avaliação clínica dos pés de risco</td>
+                          <td>ÉRICA QUEIROZ</td>
+                        </tr>
+                        <tr>
+                          <td>12:00</td>
+                          <td><i class="fa-solid fa-utensils"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>13:30</td>
+                          <td>WORKSHOP: Aplicando a neurociência moderna da dor na prática clínica</td>
+                          <td>MATHEUS VIEIRA</td>
+                        </tr>
+                        <tr>
+                          <td>14:30</td>
+                          <td>WORKSHOP: Critérios para a prescrição de palmilhas em pacientes com dores crônicas</td>
+                          <td>ANDRÉ MENDES</td>
+                        </tr>
+                        <tr>
+                          <td>15:30</td>
+                          <td><i class="fa-solid fa-mug-saucer"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>16:00</td>
+                          <td>WORKSHOP: Aplicação de diferentes materiais para palmilhas</td>
+                          <td>CLAYTON FUZETTI</td>
+                        </tr>
+                        <tr>
+                          <td>17:00</td>
+                          <td>WORKSHOP: Estudo de casos clínicos 1</td>
+                          <td>LUIZ FANTIN,<br>MICHELLE SENA</td>
+                        </tr>
+                        <tr>
+                          <td>18:00</td>
+                          <td>ENCERRAMENTO</td>
+                          <td></td>
+                        </tr>
+                    </table>
+                    <table data-dia="2" class="hidden">
+                        <tr>
+                            <th>Horário</th>
+                            <th>Atividade</th>
+                            <th>Palestrante</th>
+                        </tr>
+                        <tr>
+                          <td>07:30</td>
+                          <td>Boas vindas e café</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>08:00</td>
+                          <td>Abertura e sorteio de brindes</td>
+                          <td>CLAYTON FUZETTI</td>
+                        </tr>
+                        <tr>
+                          <td>08:30</td>
+                          <td>WORKSHOP: Por que não devemos temer as grandes franquias</td>
+                          <td>ANDRÉ MENDES</td>
+                        </tr>
+                        <tr>
+                          <td>09:30</td>
+                          <td>WORKSHOP: Precificação de palmilhas e serviços</td>
+                          <td>CLAYTON FUZETTI</td>
+                        </tr>
+                        <tr>
+                          <td>10:30 </td>
+                          <td><i class="fa-solid fa-mug-saucer"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>11:00</td>
+                          <td>WORKSHOP: Planejamento estratégico e inovação</td>
+                          <td>ANDRÉ MENDES</td>
+                        </tr>
+                        <tr>
+                          <td>12:00</td>
+                          <td><i class="fa-solid fa-utensils"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>13:30</td>
+                          <td>WORKSHOP: Palmilhas para pés reumatóides</td>
+                          <td>RAPHAEL VILELA</td>
+                        </tr>
+                        <tr>
+                          <td>14:30</td>
+                          <td>WORKSHOP: Prescrição de palmilhas para alterações ungueais e nas falange</td>
+                          <td>CAROLINE STUBER</td>
+                        </tr>
+                        <tr>
+                          <td>15:00</td>
+                          <td><i class="fa-solid fa-mug-saucer"></i></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>16:00</td>
+                          <td>WORKSHOP: Palmilhas para neuromas de Morton</td>
+                          <td>GABRIEL FRANKLIN</td>
+                        </tr>
+                        <tr>
+                          <td>17:00</td>
+                          <td>WORKSHOP: Estudo de casos clínicos 2</td>
+                          <td>ANDRÉ MENDES</td>
+                        </tr>
+                        <tr>
+                          <td>18:00</td>
+                          <td>ENCERRAMENTO E FOTO OFICIAL DO EVENTO</td>
+                          <td></td>
+                        </tr>
+                    </table>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="speakers">
+      <div class="content">
+          <h1>Palestrantes Confirmados:</h1>
+            <div class="content-default">
+              <div class="box">
+                <img src="img/andre-mendes.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                      <h2>André Mendes</h2>
+                        <li>Fisioterapeuta</li>
+                        <li>Mestre e doutorando em Fisioterapia</li>
+                        <li>Autor do livro <i>Palmilhas Terapêuticas: Ciência e Prática Clínica</i></li>
+                        <li>Sócio fundador da Podoshop® e do Palmilhando®</li>
+                    </ul>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="img/clayton-fuzetti.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                      <h2>Clayton Fuzetti</h2>
+                      <li>Fisioterapeuta</li>
+                      <li>Especialista em terapia manual e Morfofisiologia Humana</li>
+                      <li>MBA em gestão empresarial</li>
+                      <li>Sócio fundador da Podoshop® e do Palmilhando®</li>
+                    </ul>
+                </div>
+              </div>  
+
+              <div class="box">
+                <img src="img/gustavo-leme.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Gustavo Leme</h2>
+                    <li>Fisioterapeuta</li>
+                    <li>Pós-graduado em Fisioterapia do Futebol</li>
+                    <li>Mestre e Doutor em Engenharia Biomédica com linha de pesquisa em retreinamento de corrida</li>
+                  </ul>
+                </div>
+              </div>
+ 
+              <div class="box">
+                <img src="img/blank.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Carolina Lins</h2>
+                  </ul>
+                </div>
+              </div>
+ 
+              <div class="box">
+                <img src="img/erica-queiroz.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Érica Queiroz</h2>
+                    <li>Fisioterapeuta</li>
+                    <li>Mestre em Ciências do Desporto</li>
+                    <li>Doutora em Ciências da Reabilitação</li>
+                    <li>Especialista no Aparelho Locomotor do Esporte e na Fisiologia e Biomecânica do Aparelho Locomotor</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="img/matheus-vieira.png" class="frame" draggable="false">
+                <div class="text" id="matheus-vieira">
+                  <ul>
+                    <h2>Matheus Vieira</h2>
+                    <li>Fisioterapeuta</li>
+                    <li>Mestre em Fisioterapia</li>
+                    <li>Especialista em Fisioterapia Traumato-Ortopédica</li>
+                    <li>Doutorando em Ciências do Movimento Humano e Reabilitação</li>
+                    <li>Pós-graduado em Fisioterapia Ortopédica e Desportiva e Fisiologia do Exercício</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="img/blank.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Luiz Fantin</h2>
+
+                  </ul>
+                </div>
+              </div>  
+
+              <div class="box">
+                <img src="img/blank.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Michelle Sena</h2>
+
+                  </ul>
+                </div>
+              </div>
+ 
+              <div class="box">
+                <img src="img/blank.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Raphael Temoteo</h2>
+
+                  </ul>
+                </div>
+              </div>
+ 
+              <div class="box">
+                <img src="img/gabriel-franklin.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Gabriel Franklin</h2>
+                    <li>Fisioterapeuta</li>
+                    <li>Especialista em Osteopatia Clínica e Ergonomia</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="img/caroline-stuber.png" class="frame" draggable="false">
+                <div class="text">
+                  <ul>
+                    <h2>Caroline Stuber</h2>
+                    <li>Podologista</li>
+                    <li>Bacharel em Podologia</li>
+                    <li>Especialista em Medicina do Esporte e Podologia Esportiva</li>
+                  </ul>
+                </div>
+              </div>
+ 
+            </div>
+        </div>
+    </section>
+
+    <img src="css/svg/down-tab.svg" class="up-tab" draggable="false">
+    <div class="bg-white">
+    <section id="subscribe">
+      <div class="content">
+        <h1>Reserve sua vaga!</h1>
+        <h3>Clique no botão abaixo para ir para a página de inscrição.</h3>
+        <div class="content-default">
+          <button onclick="window.location='inscricao.html'">Inscreva-se!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="palmilhando-assine">
+      <h1>Esse evento é <blue-txt>exclusivo</blue-txt> para <blue-txt>assinantes do Palmilhando®</blue-txt></h1>
+      <h3>Assine hoje mesmo, não fique de fora!</h3><br>
+      <div class="content">
+        <div class="content-default">
+          <div class="text">
+            <ul>
+              <li>Base de apoio disponível 24h</li>
+              <li>Acesso livre a mais de 30 aulas práticas</li>
+              <li>Frete grátis e descontos exclusivos em produtos da Podoshop®</li>
+              <br>
+              <span>E muito mais!</span>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="logo">
+              <img src="css/svg/logo_palmilhando.svg" draggable="false">
+            </div>
+            <a href="https://palmilhando.com.br/cursos-palmilhando" target="_blank">
+              <button>Venha conhecer!</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+        <div class="content">
+            <div class="content-default">
+                  <a href="https://www.instagram.com/podoshopoficial/" class="social-icon" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://podoshop.com.br" class="social-icon" target="_blank">          
+                    <img src="css/svg/psclube-icone.svg" draggable="false">
+                  </a>
+                  <a href="https://www.facebook.com/Podoshopoficial" class="social-icon" target="_blank">          
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.youtube.com/@palmilhando" class="social-icon my-auto" target="_blank">          
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>    
+            </div>
+        </div>
+    </section>
+   </div>
+
+<script src='js/script.js'></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/39a4d158e8.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
