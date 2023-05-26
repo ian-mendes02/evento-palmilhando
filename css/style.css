@@ -44,7 +44,7 @@ button:focus {
 
 section {
   position: relative;
-  padding: 5vw 0;
+  padding: 2.5vw 0;
 }
 
 blue-txt {
@@ -227,7 +227,8 @@ light-blue {
 .description span {
   color: #fff;
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
+  font-weight: 300;
   max-width: 80%;
   margin: auto;
 }
@@ -239,7 +240,7 @@ light-blue {
 .description .content-default .text {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   max-width: 32vw;
 }
 .description .content-default .text h2 {

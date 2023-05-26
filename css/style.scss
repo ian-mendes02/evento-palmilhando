@@ -28,7 +28,7 @@ h1 {font-size: 3vw}
 h2 {font-size: 1.5vw; font-weight: 300}
 svg,button,img {@include no-select}
 button:focus {outline:none}
-section {position: relative; padding: 5vw 0;}
+section {position: relative; padding: 2.5vw 0;}
 blue-txt {color: #0986bf}
 light-blue {color: #abf0fc}
 .bg-white {background-color: #fff}
@@ -198,7 +198,8 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     span {
         color: #fff;
         text-align: center;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
+        font-weight: 300;
         max-width: 80%;
         margin: auto;
     }
@@ -209,7 +210,7 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         .text {
             display: flex;
             flex-direction: column;
-            justify-content: start;
+            justify-content: center;
             max-width: 32vw;
             h2 {
                 margin: 0;
