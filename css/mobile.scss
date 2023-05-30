@@ -490,42 +490,5 @@ span, p {
                 transform: scale(102%);
             }
 }
-.inscricao {
-    margin: 50vw auto;
-    padding: 10vw;
-    h1, h2, h3, i {
-    color: #fff;
-    text-align: center;
-    display: block;
-    }
-    i {
-        font-size: 25vw;
-    }
-    h1 {
-        font-size: 10vw;
-        font-weight: 700;
-    }
-    h2 {
-        font-size: 5vw;
-    }
-    h3 {
-        font-weight: 300;
-        font-size: 3vw
-    }
-    button {
-        color: #fff;
-        text-align: center;
-        padding: 1vw 3vw;
-        font-size: 5vw;
-        display: block;
-        margin: 10vw auto;
-        background-color: #009fb5;
-        background-image: linear-gradient(45deg, #0986bf, #7ed4db);
-        background-image: -moz-linear-gradient(45deg, #0986bf, #7ed4db);
-        background-image: -webkit-linear-gradient(45deg, #0986bf, #7ed4db);
-        background-size: 500%;
-        background-position: 30%;
-    }
-}
 }
 }

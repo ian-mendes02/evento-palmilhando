@@ -474,43 +474,6 @@
   .footer img:hover, .footer i:hover {
     transform: scale(102%);
   }
-  .footer .inscricao {
-    margin: 50vw auto;
-    padding: 10vw;
-  }
-  .footer .inscricao h1, .footer .inscricao h2, .footer .inscricao h3, .footer .inscricao i {
-    color: #fff;
-    text-align: center;
-    display: block;
-  }
-  .footer .inscricao i {
-    font-size: 25vw;
-  }
-  .footer .inscricao h1 {
-    font-size: 10vw;
-    font-weight: 700;
-  }
-  .footer .inscricao h2 {
-    font-size: 5vw;
-  }
-  .footer .inscricao h3 {
-    font-weight: 300;
-    font-size: 3vw;
-  }
-  .footer .inscricao button {
-    color: #fff;
-    text-align: center;
-    padding: 1vw 3vw;
-    font-size: 5vw;
-    display: block;
-    margin: 10vw auto;
-    background-color: #009fb5;
-    background-image: linear-gradient(45deg, #0986bf, #7ed4db);
-    background-image: -moz-linear-gradient(45deg, #0986bf, #7ed4db);
-    background-image: -webkit-linear-gradient(45deg, #0986bf, #7ed4db);
-    background-size: 500%;
-    background-position: 30%;
-  }
 }
 
 /*# sourceMappingURL=mobile.css.map */
