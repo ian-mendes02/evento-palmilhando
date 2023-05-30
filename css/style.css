@@ -184,6 +184,10 @@ light-blue {
   margin: auto;
   width: 50vw;
 }
+.header .content .content-default a, .header .content .content-default a:active, .header .content .content-default a:visited {
+  text-decoration: none;
+  color: #fff;
+}
 .header .content .content-default button {
   margin: 2vw;
   border-radius: 5vw;
@@ -229,7 +233,7 @@ light-blue {
   text-align: center;
   font-size: 1.5vw;
   font-weight: 300;
-  max-width: 80%;
+  max-width: 60%;
   margin: auto;
 }
 .description .content-default {
@@ -454,6 +458,10 @@ light-blue {
   font-size: 1vw;
   font-weight: 300;
 }
+#subscribe a, #subscribe a:active, #subscribe a:visited {
+  text-decoration: none;
+  color: #fff;
+}
 #subscribe button {
   margin: 2vw;
   border-radius: 5vw;
@@ -487,6 +495,46 @@ light-blue {
 }
 #subscribe button:hover {
   background-position: 80%;
+}
+#subscribe .content-default .container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+#subscribe .content-default .container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0.5vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1vw;
+  border-radius: 2vw;
+  max-width: 17vw;
+  aspect-ratio: 1;
+}
+#subscribe .content-default .container .box h1 {
+  font-size: 1vw;
+  max-width: 100%;
+}
+#subscribe .content-default .container .box h2 {
+  font-size: 1.25vw;
+  max-width: 100%;
+}
+#subscribe .content-default .text {
+  padding: 3vw;
+}
+#subscribe .content-default .text h1, #subscribe .content-default .text h2, #subscribe .content-default .text h3 {
+  margin: 2vw auto;
+}
+#subscribe .content-default .text h1 {
+  font-size: 2vw;
+}
+#subscribe .content-default .text h2 {
+  font-size: 3vw;
+}
+#subscribe .content-default .text h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
 }
 
 .palmilhando-assine .content-default {

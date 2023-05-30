@@ -176,6 +176,10 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
                 margin: auto;
                 width: 50vw;
             }
+            a, a:active, a:visited {
+                text-decoration: none;
+                color: #fff
+            }
             button {
                 @include my-button;
                 @include blue-grad;
@@ -200,7 +204,7 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         text-align: center;
         font-size: 1.5vw;
         font-weight: 300;
-        max-width: 80%;
+        max-width: 60%;
         margin: auto;
     }
     .content-default {
@@ -420,6 +424,10 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         font-size: 1vw;
         font-weight: 300;
     }
+    a, a:active, a:visited {
+        text-decoration: none;
+        color: #fff
+    }
     button {
         @include my-button;
         @include blue-grad;
@@ -432,6 +440,49 @@ $box-shadow-3: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
             background-position: 80%;
         }
     }
+    .content-default {
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin: .5vw;
+                box-shadow: $box-shadow-2;
+                padding: 1vw;
+                border-radius: 2vw;
+                max-width: 17vw;
+                aspect-ratio: 1;
+                h1 {
+                    font-size: 1vw;
+                    max-width: 100%;
+                }
+                h2 {
+                    font-size: 1.25vw;
+                    max-width: 100%;
+                }
+            }
+        }
+        .text {
+            padding: 3vw;
+            h1, h2, h3 {
+                margin: 2vw auto;
+            }
+            h1 {
+                font-size: 2vw;
+            }
+            h2 {
+                font-size: 3vw;
+            }
+            h3 {
+                font-size: 1.5vw;
+                font-weight: 400;
+            }
+        }
+    }
+
 }
 .palmilhando-assine {
     .content-default {

@@ -93,9 +93,14 @@
     font-size: 5vw;
     padding: 1vw 5vw;
   }
+  .description h1 {
+    font-size: 10vw;
+    max-width: 100%;
+    display: block;
+  }
   .description h2 {
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 6vw;
   }
   .description .content {
     padding: 5vw;
@@ -105,7 +110,7 @@
     margin: auto;
     color: #fff;
     max-width: 80vw;
-    font-size: 3vw;
+    font-size: 5vw;
     text-align: center;
   }
   .description .content-default {
@@ -310,9 +315,50 @@
   }
   #subscribe button {
     font-size: 5vw;
-    padding: 1vw 10vw;
+    padding: 5vw 25vw;
     display: block;
     margin: 5vw auto 10vw;
+    border-radius: 10vw;
+  }
+  #subscribe .content-default .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  #subscribe .content-default .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2vw;
+    padding: 5vw;
+    border-radius: 5vw;
+    max-width: 100%;
+    aspect-ratio: 1;
+  }
+  #subscribe .content-default .container .box h1 {
+    font-size: 5vw;
+    max-width: 100%;
+    width: 100%;
+  }
+  #subscribe .content-default .container .box h2 {
+    font-size: 7.5vw;
+    max-width: 100%;
+  }
+  #subscribe .content-default .text {
+    padding: 3vw;
+  }
+  #subscribe .content-default .text h1, #subscribe .content-default .text h2, #subscribe .content-default .text h3 {
+    margin: 4vw auto;
+  }
+  #subscribe .content-default .text h1 {
+    font-size: 7.5vw;
+  }
+  #subscribe .content-default .text h2 {
+    font-size: 10vw;
+  }
+  #subscribe .content-default .text h3 {
+    font-size: 6vw;
+    font-weight: 400;
   }
   .palmilhando-assine h1 {
     font-size: 10vw;
@@ -322,6 +368,7 @@
     font-size: 5vw;
     display: block;
     margin: auto;
+    max-width: 100%;
   }
   .palmilhando-assine .content-default {
     display: flex;
